@@ -1,6 +1,6 @@
 {
-  "name": "react-router-bootstrap",
-  "version": "0.18.0",
+  "name": "@alexkuz/react-router-bootstrap",
+  "version": "0.18.1-beta2",
   "description": "react-router and react-bootstrap compatible components",
   "main": "./lib/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/react-bootstrap/react-router-bootstrap",
   "peerDependencies": {
-    "react-bootstrap": ">=0.22.4",
+    "react-bootstrap": ">=0.25.100-react-pre.0",
     "react-router": ">=1.0.0-beta3"
   },
   "devDependencies": {
@@ -63,9 +63,7 @@
     "mt-changelog": "^0.6.1",
     "node-libs-browser": "^0.5.2",
     "phantomjs": "^1.9.13",
-    "react": ">0.10.0",
-    "react-bootstrap": ">=0.15",
-    "react-router": ">=0.13.1",
+    "react": ">0.10.0 || ^0.14.0-alpha",
     "release-script": "^0.2.1",
     "shelljs": "^0.5.1",
     "style-loader": "^0.12.3",
